@@ -47,7 +47,7 @@ class Owner
     "I have #{self.pets[:fishes].size} fish, #{self.pets[:dogs].size} dog(s), and #{self.pets[:cats].size} cat(s)."
   end
   def self.reset_all
-    @@all.clear
+    self.all.clear
   end
   def self.count
     self.all.count
